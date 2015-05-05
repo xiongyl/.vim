@@ -52,10 +52,18 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
-" 设置NerdTree
+" NerdTree
 "map <F3> :NERDTreeMirror<CR>
 map <F3> :NERDTreeToggle<CR>
 
-colo night
+colo night " color theme
 
-set nu
+set nu " display line number
+
+" indent
+set si
+set ts=2
+set sw=2
+set sts=2
+set et
+set sta
