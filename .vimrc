@@ -56,7 +56,7 @@ endif
 "map <F3> :NERDTreeMirror<CR>
 map <F3> :NERDTreeToggle<CR>
 
-colo night " color theme
+colo fruity " color theme
 
 set nu " display line number
 
@@ -67,3 +67,6 @@ set sw=2
 set sts=2
 set et
 set sta
+
+" auto change directory
+set autochdir
