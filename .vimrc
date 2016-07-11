@@ -61,11 +61,11 @@ colo fruity " color theme
 set nu " display line number
 
 " indent
-set si
-set ts=2
-set sw=2
-set sts=2
-set et
+set si " smart indent
+set ts=4 " tab stop, specifies the width of a tab character
+set sw=4 " shift width, determines the amount of whitespaces to insert or remove using the indentation
+set sts=4 " soft tab stop, when enabled, fine tunes the amount of whitespaces to be inserted
+set et " expand tab, when enabled, causes spaces to be used in place of tab characters
 set sta
 
 " auto change directory
