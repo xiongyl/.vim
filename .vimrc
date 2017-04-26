@@ -56,7 +56,7 @@ endif
 "map <F3> :NERDTreeMirror<CR>
 map <F3> :NERDTreeToggle<CR>
 
-colo fruity " color theme
+colo google " color theme
 
 set nu " display line number
 
@@ -70,3 +70,5 @@ set sta
 
 " auto change directory
 set autochdir
+" for comment indent
+:inoremap # X<BS>#
