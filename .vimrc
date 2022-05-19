@@ -57,6 +57,7 @@ endif
 map <F3> :NERDTreeToggle<CR>
 
 colo google " color theme
+set t_Co=256 " terminal color
 
 set nu " display line number
 
