@@ -56,7 +56,8 @@ endif
 "map <F3> :NERDTreeMirror<CR>
 map <F3> :NERDTreeToggle<CR>
 
-colo google " color theme
+colo gruvbox " color theme
+set bg=dark
 set t_Co=256 " terminal color
 
 set nu " display line number
