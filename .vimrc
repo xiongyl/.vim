@@ -74,3 +74,5 @@ set sta
 set autochdir
 " for comment indent
 :inoremap # X<BS>#
+
+set nofixendofline
